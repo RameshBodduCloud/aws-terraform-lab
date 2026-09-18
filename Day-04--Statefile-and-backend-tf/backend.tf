@@ -4,7 +4,7 @@ terraform {
     key            = "dev/terraform.tfstate"
     region         = "us-east-1"
     #dynamodb_table = "Ramesh-state-lock"
-    use_locking     = true
+    use_lockfile = true
     #encrypt        = true 
   }
 }
