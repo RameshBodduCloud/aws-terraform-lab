@@ -3,7 +3,8 @@ terraform {
     bucket         = "ramesh-terraform-state-bucket1"
     key            = "dev/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "Ramesh-state-lock"
-    #encrypt        = true
+    #dynamodb_table = "Ramesh-state-lock"
+    use_locking     = true
+    #encrypt        = true 
   }
 }
