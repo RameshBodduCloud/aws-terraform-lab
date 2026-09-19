@@ -49,6 +49,6 @@ resource "aws_instance" "Ramesh-Instance-2" {
 
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "ramesh-terraform-state-bucket1"
+  bucket = "ramesh-demo-app-bucket"
   region = var.aws_region
 }
