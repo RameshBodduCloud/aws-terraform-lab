@@ -11,3 +11,8 @@
 # Ignore any other local config
 *.ignore
 
+*.zip
+
+*.js
+
+*.info
